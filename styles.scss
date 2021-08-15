@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.edutitle {
+  color: #136223;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.blue {
+  background-color: #edf7fa;
+}
+
+.all-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+  .image {
+    margin-right: 10px;
+  }
+}
+
+.info-project {
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+}
+
+ul {
+  margin-left: -10px;
+  padding: 0;
+  margin-bottom: 0 !important;
+
+  li {
+    padding: 0;
+  }
+}
+
+.font-wight-700 {
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  div {
+    .label-bg {
+      background-color: #142850;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20px;
+      width: 3.5em;
+      color: white;
+    }
+  }
+  .title{
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+}
+
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border:2px solid #fff;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+}
+
+//overrides bootstraps
+.card {
+  border:0 !important;
+  padding-top: 0 !important;
+}
+.card-body{
+  padding-top: 0 !important;
+}
